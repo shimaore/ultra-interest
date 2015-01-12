@@ -1,0 +1,21 @@
+{
+  "name": "ultra-interest",
+  "version": "1.0.0",
+  "description": "Test replication of deleted docs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Stéphane Alnet <stephane@shimaore.net> (http://stephane.shimaore.net/)",
+  "license": "Unlicense",
+  "devDependencies": {
+    "bluebird": "^2.6.2",
+    "chai": "^1.10.0",
+    "chai-as-promised": "^4.1.1",
+    "exec-as-promised": "^1.0.1",
+    "mocha": "^2.1.0",
+    "pouchdb": "^3.2.1",
+    "superagent-as-promised": "^2.0.0",
+    "winston": "^0.8.3"
+  }
+}
